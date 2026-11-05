@@ -1,0 +1,20 @@
+/*program(30)-->
+solution(2):Argument,No return value*/
+#include<stdio.h>
+void area Triangle(float base,float height)
+{
+	float area;
+	area=0.5*base*height;
+	printf("Area of Triangle=%f",area);
+}
+int main()
+{
+	float b,h;
+	printf("Enter base:");
+	scanf("%f",&b);
+	printf("Enter height:");
+	scanf("%f",&h);
+	
+	area Triangle(b,h);
+	return 0;
+}
